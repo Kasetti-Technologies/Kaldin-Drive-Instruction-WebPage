@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exam Instructions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f9fc;
+      color: #222;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin: 0 auto 50px auto;
+    }
+
+    h1 {
+      color: #004080;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    ul {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    .highlight {
+      color: #d80000;
+      font-weight: bold;
+    }
+
+    .note,
+    .download-note {
+      margin-top: 25px;
+      font-size: 1rem;
+      background-color: #fff8e1;
+      color: #8a6d3b;
+      padding: 15px;
+      border: 1px solid #f5c674;
+      border-radius: 8px;
+    }
+
+    .download-btn,
+    .alt-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #007acc;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover,
+    .alt-btn:hover {
+      background-color: #005fa3;
+    }
+
+    .alt-section {
+      margin-top: 30px;
+      background-color: #eef7ff;
+      padding: 15px;
+      border: 1px solid #c9e3f5;
+      border-radius: 10px;
+    }
+
+    p.final-msg {
+      margin-top: 30px;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      ul {
+        font-size: 1rem;
+      }
+
+      .download-btn,
+      .alt-btn {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="text-align: center; margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px solid #eaeaea;">
+      <div style="font-size: 24px; font-weight: 700; color: #004080; margin-bottom: 8px;">Kasetti Technologies</div>
+      <div style="font-size: 16px;">Specializing in innovative enterprise solutions</div>
+      <div style="margin-top: 10px; font-size: 14px; color: #555;">
+        <span style="margin: 0 8px;">Salesforce</span>•
+        <span style="margin: 0 8px;">Snowflake</span>•
+        <span style="margin: 0 8px;">AI/ML Solutions</span>•
+        <span style="margin: 0 8px;">Workato Integration</span>
+      </div>
+    </div>
+    <h1>📝 Exam Instructions</h1>
+    <ul>
+      <li>Keep your <span class="highlight">mobile phones, smartwatches, and Bluetooth devices in silent mode</span> and place them in your bag.</li>
+      <li><span class="highlight">No electronic gadgets</span> (e.g., calculators, earphones, fitness bands) are allowed during the exam.</li>
+      <li>Place your bag <span class="highlight">on the chair behind you</span> before the exam begins.</li>
+      <li><span class="highlight">Do not minimize, switch, or close</span> the exam window/tab once the exam has started.</li>
+      <li>If you face any issue or have a doubt, <span class="highlight">raise your hand quietly</span> to alert the invigilator.</li>
+      <li>Ensure your webcam (if applicable) is functional and you are <span class="highlight">seated upright and facing the screen</span> throughout the exam.</li>
+      <li><span class="highlight">Talking or whispering</span> with anyone during the exam is strictly forbidden.</li>
+      <li><span class="highlight">No bathroom breaks</span> unless in case of emergency and with invigilator permission.</li>
+      <li>Keep your eyes on your own screen. <span class="highlight">Suspicious behavior may result in cancellation</span> of your exam.</li>
+      <li><span class="highlight">Do not refresh</span> or click the browser back button during the exam.</li>
+      <li>Once done, <span class="highlight">click "Submit"</span> and confirmation with staff before leaving your seat.</li>
+    </ul>
+
+    <div class="note">
+      ⚠️ <strong>Network Requirement:</strong><br>
+      You must be connected to the provided <strong>local Wi-Fi network</strong> to take the exam.<br>
+      Note: There is <strong>no internet access</strong> on this network — it is for internal system use only.
+    </div>
+
+    <a href="start.bat" download class="download-btn">⬇️ Download Start File (Windows)</a>
+
+    <div class="download-note">
+      📥 <strong>File Execution Guide:</strong><br>
+      1. If your browser blocks the file, click the <strong>three dots</strong> and choose <strong>"Keep"</strong> or <strong>"Keep anyway"</strong>.<br>
+      2. After download, <strong>double-click <code>start.bat</code></strong> to open it.<br>
+      3. If you see <strong>"Windows protected your PC"</strong> message, click <strong>"More info"</strong> and then <strong>"Run anyway"</strong>.<br>
+      4. Click <strong>"Run"</strong> or <strong>"Yes"</strong> if prompted.<br>
+      5. If a blank screen appears, <strong>do not close</strong>. Wait patiently for it to load.
+    </div>
+
+    <div class="alt-section">
+      🖥️ <strong>Mac, Linux, or Browser Issue?</strong><br>
+      Click the link below to access the exam portal in full screen:<br>
+      <a class="alt-btn" href="http://192.168.1.221:8080/kaldin" onclick="window.open(this.href, '_blank', 'incognito=yes,private=yes'); return false;">🔗 Open Exam Portal (Private Mode)</a>
+    </div>
+
+    <div class="note">
+      🔑 <strong>Login Instructions:</strong><br>
+      When you reach the Kaldin Exam login screen:<br>
+      1. Use <strong>"Candidate Login"</strong><br>
+      2. Enter the <strong>email address</strong> you used in the Google form<br>
+      3. Use password: <strong>"1234"</strong>
+    </div>
+
+    <p class="final-msg">✅ Please follow all instructions carefully.<br>🎯 Best of luck with your exam!</p>
+    
+    <!-- Page Build by Akhilesh HN Sr Cx Consultant Kasetti TechKasetti -->
+  </div>
+</body>
+</html>
